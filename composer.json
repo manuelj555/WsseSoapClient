@@ -1,8 +1,8 @@
 {
-    "name": "manuelj555/wsse-server-bundle",
-    "type": "symfony-bundle",
-    "description": "Symfony Wsse Server Bundle",
-    "keywords": ["wsse", "security", "bundle", "authentication", "soap", "besimple"],
+    "name": "manuelj555/wsse-soap-client",
+    "type": "php-lib",
+    "description": "Libreria para la creacion de headers wsse",
+    "keywords": ["wsse", "security", "authentication", "soap"],
     "license": "MIT",
     "authors": [
         {
@@ -12,12 +12,10 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/framework-bundle": "~2.3|~3.0",
-        "besimple/soap": "0.2.*"
+        "php": ">=5.3.3"
     },
     "autoload": {
-        "psr-4": { "Ku\\Bundle\\WsseServerBundle\\": "" }
+        "psr-4": { "Ku\\WsseSoapClient\\": "" }
     },
     "extra": {
         "branch-alias": {
