@@ -1,6 +1,6 @@
 <?php
 
-namespace Ku\WsseSoapClient;
+namespace Ku\WsseSoapClient\Services;
 
 /**
  * @author Manuel Aguirre <programador.manuel@gmail.com>

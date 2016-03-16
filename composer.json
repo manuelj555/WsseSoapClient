@@ -13,10 +13,13 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "ext-soap": "*",
+        "ext-soap": "*"
     },
     "autoload": {
-        "psr-4": { "Ku\\WsseSoapClient\\": "" }
+        "psr-4": {
+            "Ku\\WsseSoapClient\\": "src",
+            "Ku\\WsseSoapClient\\Tests\\": "Tests"
+        }
     },
     "extra": {
         "branch-alias": {
